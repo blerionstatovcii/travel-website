@@ -1,28 +1,43 @@
-# Travel Website
+# travel-website
 
-This website is created to provide a simple and modern platform for booking trips, viewing promotional offers, and accessing information about a travel agency.
+A complete, modern travel website for booking trips, viewing promotions, and providing agency information. Fully responsive and easy to customize, built with HTML, CSS, and JavaScript.
 
 ## Purpose
 
-The main goal of this website is to help users:
+This project is designed to help users:
 
-- Discover the most popular destinations and the latest travel offers.
-- Book trips easily and quickly through the reservation page.
-- Read information about the agency and the services it provides.
-- Create or log in to their account to benefit from exclusive deals.
+- Discover popular destinations and the latest travel offers.
+- Book trips easily through the reservation page.
+- Read about the agency, its mission, and contact information.
+- Create or log into an account to access exclusive deals.
 
 ## How it works
 
-The website consists of several main pages:
+The website is made up of several pages that together provide a simple booking experience:
 
-- **Home page**: Presents destinations, offers, and guides users to the main sections of the site.
-- **Promotions**: Shows special offers and current discounts for travel.
-- **Reservation**: Allows users to select their destination, dates, and make a booking.
-- **About**: Provides detailed information about the agency, its mission, and contact details.
-- **Login**: Offers a modern login form for existing users or new registrations.
+- **Home (`index.html`)**: Highlights destinations and links to other sections.
+- **Promotions (`promotions.html`)**: Lists current deals and discounts.
+- **Reservation (`reservation.html`)**: Lets users select destinations, dates, and submit bookings.
+- **About (`about.html`)**: Shares information about the agency and services.
+- **Login (`login.html`)**: Modern login form for users to sign in or register.
 
-All pages are designed to be user-friendly, mobile and desktop responsive, and visually attractive.
+All pages are mobile-first, visually clean, and prioritize ease of use.
+
+## Project Structure (brief)
+
+```
+index.html
+about.html
+login.html
+promotions.html
+reservation.html
+style.css
+css/premium.css
+js/main.js
+image/ (site images)
+partials/ (optional reusable HTML)
+```
 
 ## Summary
 
-This project demonstrates a simple, functional, and visually appealing solution for a travel agency or an online booking platform. It is ideal for anyone who wants to showcase travel services, manage bookings, and engage users with modern web design.
+This repository contains a lightweight travel site template suitable for demonstration, learning, or as a starting point for a real booking site.
