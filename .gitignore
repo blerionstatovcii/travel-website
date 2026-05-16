@@ -1,0 +1,31 @@
+# Node modules and dependencies
+node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build output
+/dist/
+/build/
+
+# VS Code settings
+.vscode/
+
+# Environment files
+.env
+.env.*
+
+# Images cache or temp
+*.tmp
+*.cache
+
+# Ignore system files
+*.swp
+*.swo
+
+# Ignore personal files
+*.local

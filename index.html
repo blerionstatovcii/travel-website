@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="sq">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Travel — Luxury Worldwide Journeys</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page-home">
+    <header class="header">
+        <a href="index.html" class="logo">Travel</a>
+        <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menu"><i class="fa fa-bars"></i></button>
+        <nav>
+            <div class="nav-close"><button onclick="toggleMenu()">✕</button></div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="promotions.html">Promotions</a></li>
+                    <li><a href="reservation.html">Reservation</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="login.html">Log in</a></li>
+                </ul>
+        </nav>
+        <a href="reservation.html" class="header__cta"><i class="fa fa-calendar"></i> Book Now</a>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero-premium" id="hero">
+        <div class="hero-premium__media">
+            <swiper-container class="mySwiper" navigation="true" pagination="true" keyboard="true" loop="true" autoplay-delay="5000" css-mode="true">
+                <swiper-slide><img src="image/Paris.png" alt="Paris"></swiper-slide>
+                <swiper-slide><img src="image/New York.png" alt="New York"></swiper-slide>
+                <swiper-slide><img src="image/London.png" alt="London"></swiper-slide>
+                <swiper-slide><img src="image/Lisbona-2.png" alt="Lisbon"></swiper-slide>
+        </swiper-container>
+        </div>
+        <div class="hero-premium__shade"></div>
+        <div class="hero-premium__grain"></div>
+        <div class="hero-premium__content">
+            <span class="hero-premium__badge">Award-Winning Travel Since 2010</span>
+            <h1>Discover Your <em>Next Adventure</em></h1>
+            <p class="hero-premium__lead">Curated luxury escapes, handpicked hotels, and seamless journeys to the world's most breathtaking destinations.</p>
+            <div class="hero-premium__actions">
+                <a href="#cities" class="btn-premium btn-premium--primary">Explore Destinations <i class="fa fa-arrow-right"></i></a>
+                <a href="reservation.html" class="btn-premium btn-premium--ghost">Plan Your Trip</a>
+            </div>
+        </div>
+        <div class="hero-premium__scroll"><span>Scroll</span></div>
+    </section>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    <!-- Trust bar -->
+    <div class="trust-bar reveal">
+        <div class="trust-bar__inner">
+            <div class="trust-item">
+                <div class="trust-item__icon"><i class="fa fa-trophy"></i></div>
+                <div><strong>Best Travel Agency</strong><span>Europe Awards 2024</span></div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-item__icon"><i class="fa fa-users"></i></div>
+                <div><strong>150,000+ Guests</strong><span>Happy travelers yearly</span></div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-item__icon"><i class="fa fa-shield"></i></div>
+                <div><strong>100% Secure</strong><span>Protected bookings</span></div>
+    </div>
+            <div class="trust-item">
+                <div class="trust-item__icon"><i class="fa fa-star"></i></div>
+                <div><strong>4.9 / 5 Rating</strong><span>12,000+ reviews</span></div>
+            </div>
+        </div>
+                    </div>
+
+    <div class="cities-marquee" aria-hidden="true">
+        <div class="cities-marquee__track">
+            <span>Paris</span><span class="dot">✦</span><span>Dubai</span><span class="dot">✦</span><span>London</span><span class="dot">✦</span><span>New York</span><span class="dot">✦</span><span>Lisbon</span><span class="dot">✦</span><span>Tirana</span><span class="dot">✦</span><span>Stamboll</span><span class="dot">✦</span><span>Prishtina</span><span class="dot">✦</span><span>Venice</span><span class="dot">✦</span>
+            <span>Paris</span><span class="dot">✦</span><span>Dubai</span><span class="dot">✦</span><span>London</span><span class="dot">✦</span><span>New York</span><span class="dot">✦</span><span>Lisbon</span><span class="dot">✦</span><span>Tirana</span><span class="dot">✦</span><span>Stamboll</span><span class="dot">✦</span><span>Prishtina</span><span class="dot">✦</span><span>Venice</span><span class="dot">✦</span>
+                    </div>
+                </div>
+
+    <!-- Cities Bento -->
+    <section class="cities-showcase reveal" id="cities">
+        <div class="lux-orb lux-orb--1"></div>
+        <div class="lux-orb lux-orb--2"></div>
+        <div class="section-head">
+            <span class="eyebrow">Premium Destinations</span>
+            <h2>The World Awaits You</h2>
+            <p>Hand-selected cities where every detail — from flight to five-star stay — is crafted for perfection.</p>
+            </div>
+        <div class="cities-bento reveal-stagger">
+            <a href="reservation.html" class="city-tile city-tile--hero reveal-child">
+                <img src="image/Paris.png" alt="Paris">
+                <span class="city-tile__tag city-tile__tag--hot">Signature</span>
+                <div class="city-tile__overlay">
+                    <h3>Paris</h3>
+                    <p class="price-from">From $299</p>
+                    <p class="city-desc">The city of light — haute couture, Michelin stars, and timeless romance.</p>
+                </div>
+            </a>
+            <a href="reservation.html" class="city-tile city-tile--tall reveal-child">
+                <img src="image/travel to dubail.webp" alt="Dubai">
+                <span class="city-tile__tag">Luxury</span>
+                <div class="city-tile__overlay"><h3>Dubai</h3><p class="price-from">From $300</p><p class="city-desc">Ultra-modern oasis of ambition.</p></div>
+            </a>
+            <a href="reservation.html" class="city-tile city-tile--tall reveal-child">
+                <img src="image/London.png" alt="London">
+                <span class="city-tile__tag">Classic</span>
+                <div class="city-tile__overlay"><h3>London</h3><p class="price-from">From $650</p></div>
+            </a>
+            <a href="reservation.html" class="city-tile city-tile--wide reveal-child">
+                <img src="image/New York.png" alt="New York">
+                <div class="city-tile__overlay"><h3>New York</h3><p class="price-from">From $580</p></div>
+            </a>
+            <a href="reservation.html" class="city-tile city-tile--wide reveal-child">
+                <img src="image/Lisbona-2.png" alt="Lisbon">
+                <div class="city-tile__overlay"><h3>Lisbon</h3><p class="price-from">From $240</p></div>
+            </a>
+            <a href="reservation.html" class="city-tile city-tile--wide reveal-child">
+                <img src="image/airalbania.jpeg" alt="Tirana">
+                <div class="city-tile__overlay"><h3>Tirana</h3><p class="price-from">From $190</p></div>
+            </a>
+            <a href="reservation.html" class="city-tile reveal-child">
+                <img src="image/instabull.jpg" alt="Stamboll">
+                <div class="city-tile__overlay"><h3>Stamboll</h3><p class="price-from">From $250</p></div>
+            </a>
+            <a href="reservation.html" class="city-tile reveal-child">
+                <img src="image/travel to shangi.webp" alt="Thailand">
+                <div class="city-tile__overlay"><h3>Thailand</h3><p class="price-from">From $470</p></div>
+            </a>
+            <a href="reservation.html" class="city-tile reveal-child">
+                <img src="image/travel 3.webp" alt="Venice">
+                <div class="city-tile__overlay"><h3>Venice</h3><p class="price-from">From $220</p></div>
+            </a>
+            <a href="reservation.html" class="city-tile reveal-child">
+                <img src="image/Prishtina-Mall-1-1920.jpg" alt="Prishtina">
+                <div class="city-tile__overlay"><h3>Prishtina</h3><p class="price-from">From $220</p></div>
+            </a>
+                        </div>
+        <div class="cities-showcase__cta">
+            <a href="promotions.html"><button class="btn-glow">View All Exclusive Offers <i class="fa fa-arrow-right"></i></button></a>
+                        </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section-block reveal">
+        <div class="experience-banner">
+            <div>
+                <span class="eyebrow">The Travel Difference</span>
+                <h2>Where Luxury Meets Seamless Planning</h2>
+                <p>White-glove service from your first inquiry to your return home. We partner only with verified 5-star properties and premium airlines worldwide.</p>
+                <div class="experience-banner__stats">
+                    <div><strong>12+</strong><span>Iconic Cities</span></div>
+                    <div><strong>50+</strong><span>Global Partners</span></div>
+                    <div><strong>24/7</strong><span>Concierge</span></div>
+                </div>
+            </div>
+            <div class="experience-banner__img">
+                <img src="image/caribean.webp" alt="Luxury travel">
+        </div>
+        </div>
+    </section>
+
+    <!-- Offers -->
+    <section class="section-block section-block--alt reveal" id="offers">
+        <div class="section-head">
+            <span class="eyebrow">Curated Weekly</span>
+            <h2>Exclusive Offers In <span class="h2">Each City</span></h2>
+            <p>Limited availability — reserve your dates before these exceptional rates disappear.</p>
+            </div>
+        <div class="destinations-grid reveal-stagger">
+            <article class="destination-card reveal-child">
+                <div class="destination-card__image"><img src="image/travel to dubail.webp" alt="Dubai"></div>
+                <div class="destination-card__body">
+                    <h2>Dubai</h2>
+                    <div class="destination-meta"><span>5 nights</span><span class="price">$300</span></div>
+                    <p>Skyscrapers, desert safaris, and world-class dining in the heart of the Emirates.</p>
+                    <a href="reservation.html"><button class="btn-primary">Reserve Now</button></a>
+                    </div>
+            </article>
+            <article class="destination-card reverse reveal-child">
+                <div class="destination-card__image"><img src="image/travel to shangi.webp" alt="Thailand"></div>
+                <div class="destination-card__body">
+                    <h2>Thailand</h2>
+                    <div class="destination-meta"><span>5 nights</span><span class="price">$470</span></div>
+                    <p>Azure waters, golden temples, and cuisine that defines tropical paradise.</p>
+                    <a href="reservation.html"><button class="btn-primary">Reserve Now</button></a>
+                </div>
+            </article>
+            <article class="destination-card reveal-child">
+                <div class="destination-card__image"><img src="image/travel 3.webp" alt="Venice"></div>
+                <div class="destination-card__body">
+                    <h2>Venice</h2>
+                    <div class="destination-meta"><span>5 nights</span><span class="price">$220</span></div>
+                    <p>Gondolas, palazzos, and art history floating on Venetian lagoon.</p>
+                    <a href="reservation.html"><button class="btn-primary">Reserve Now</button></a>
+                </div>
+            </article>
+            <article class="destination-card reverse reveal-child">
+                <div class="destination-card__image"><img src="image/travel to venecia.webp" alt="London"></div>
+                <div class="destination-card__body">
+                    <h2>London</h2>
+                    <div class="destination-meta"><span>5 nights</span><span class="price">$650</span></div>
+                    <p>Royal heritage meets cutting-edge culture in Europe's most dynamic capital.</p>
+                    <a href="reservation.html"><button class="btn-primary">Reserve Now</button></a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Why us -->
+    <section class="section-block reveal" id="why-us">
+        <div class="section-head">
+            <span class="eyebrow">Why Choose Us</span>
+            <h2>Travel Like The World Is Yours</h2>
+            <p>Every journey is orchestrated by specialists who have walked every path you'll take.</p>
+        </div>
+        <div class="features-grid reveal-stagger">
+            <div class="feature-card reveal-child">
+                <div class="feature-card__icon"><i class="fa fa-plane"></i></div>
+                <h3>First-Class Flights</h3>
+                <p>Premium seats on leading carriers — comfort from departure to arrival.</p>
+            </div>
+            <div class="feature-card reveal-child">
+                <div class="feature-card__icon"><i class="fa fa-gem"></i></div>
+                <h3>Five-Star Stays</h3>
+                <p>Only properties that meet our rigorous quality and service standards.</p>
+            </div>
+            <div class="feature-card reveal-child">
+                <div class="feature-card__icon"><i class="fa fa-concierge-bell"></i></div>
+                <h3>Private Concierge</h3>
+                <p>Dedicated support before, during, and after your entire journey.</p>
+        </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="section-block section-block--alt reveal" id="reviews">
+        <div class="section-head">
+            <span class="eyebrow">Guest Stories</span>
+            <h2>Voices From Around The Globe</h2>
+            <p>Real experiences from travelers who trusted us with their dream vacations.</p>
+        </div>
+        <div class="testimonials-grid reveal-stagger">
+            <div class="testimonial-card reveal-child">
+                <div class="stars">★★★★★</div>
+                <p>An impeccable Dubai experience — private transfers, stunning suite, flawless timing. True five-star service.</p>
+                <div class="author">Arben K.<span>Prishtina</span></div>
+            </div>
+            <div class="testimonial-card reveal-child">
+                <div class="stars">★★★★★</div>
+                <p>They crafted our Thailand honeymoon perfectly. Every detail felt personal and luxurious.</p>
+                <div class="author">Elira M.<span>Tirana</span></div>
+            </div>
+            <div class="testimonial-card reveal-child">
+                <div class="stars">★★★★★</div>
+                <p>Venice exceeded every expectation. Travel handled everything — we simply enjoyed the magic.</p>
+                <div class="author">James L.<span>London</span></div>
+        </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="conponent reveal" id="cta">
+        <h1 class="you">Begin Your Journey Today</h1>
+        <p class="ti">Luxury travel, thoughtfully priced — reserve your dates in minutes.</p>
+        <a href="reservation.html"><button class="buton">Book Your Escape</button></a>
+        <a href="#hero"><button class="ii"><i class="fa-solid fa-up-long"></i></button></a>
+    </section>
+
+    <footer class="site-footer">
+        <div class="site-footer__grid">
+            <div class="site-footer__brand">
+                <span class="logo-text">Travel</span>
+                <p>World-class journeys for discerning travelers. Curated. Seamless. Unforgettable.</p>
+                <div class="site-footer__social">
+                    <a href="#" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+                </div>
+            </div>
+            <div>
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="promotions.html">Promotions</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="reservation.html">Reservations</a></li>
+                    <li><a href="login.html">Member Login</a></li>
+                    <li><a href="reservation.html">Group Travel</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="tel:+38349888274">+383 49 888 274</a></li>
+                    <li><a href="mailto:travel@gmail.com">travel@gmail.com</a></li>
+                    <li>rr. Muharrem Fejza, Prishtina</li>
+                </ul>
+            </div>
+        </div>
+        <div class="site-footer__bottom">
+            <span>© 2026 Travel. All rights reserved.</span>
+            <span>Crafted with <span class="gold">♥</span> for world explorers</span>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

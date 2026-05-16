@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="sq">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Log In — Travel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page-inner">
+    <header class="header">
+        <a href="index.html" class="logo">Travel</a>
+        <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menu"><i class="fa fa-bars"></i></button>
+        <nav>
+            <div class="nav-close"><button onclick="toggleMenu()">✕</button></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="promotions.html">Promotions</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Log in</a></li>
+            </ul>
+        </nav>
+        <a href="reservation.html" class="header__cta"><i class="fa fa-calendar"></i> Book Now</a>
+    </header>
+
+    <!-- Section 1: Login Hero -->
+    <section class="logiii" id="one">
+        <img class="foto" src="image/besi.png" alt="Login">
+        <div class="login-container">
+            <h2>Login</h2>
+            <div class="input-group">
+                <i class="fa fa-user"></i>
+                <input type="text" placeholder="Type your username">
+            </div>
+            <div class="input-group">
+                <i class="fa fa-lock"></i>
+                <input type="password" placeholder="Type your password">
+            </div>
+            <a href="#" class="forgot-password">Forgot password?</a>
+            <button class="login-btn">LOGIN</button>
+        </div>
+    </section>
+
+    <!-- Trending Cities -->
+    <section class="section-block section-block--alt" id="trending">
+        <div class="section-head">
+            <span class="eyebrow">Trending Tani</span>
+            <h2>Qytetet Më Të Kërkuara</h2>
+            <p>Hyr në llogari dhe ruaj destinacionet e preferuara për oferta ekskluzive.</p>
+        </div>
+        <div class="cities-scroll">
+            <a href="reservation.html" class="city-pill">
+                <img src="image/Paris.png" alt="Paris">
+                <div class="city-pill__info"><strong>Paris</strong><em>-20% anëtarë</em></div>
+            </a>
+            <a href="reservation.html" class="city-pill">
+                <img src="image/travel to dubail.webp" alt="Dubai">
+                <div class="city-pill__info"><strong>Dubai</strong><em>Ofertë flash</em></div>
+            </a>
+            <a href="reservation.html" class="city-pill">
+                <img src="image/instabull.jpg" alt="Stamboll">
+                <div class="city-pill__info"><strong>Stamboll</strong><em>Nga $250</em></div>
+            </a>
+            <a href="reservation.html" class="city-pill">
+                <img src="image/London.png" alt="London">
+                <div class="city-pill__info"><strong>London</strong><em>Nga $420</em></div>
+            </a>
+            <a href="reservation.html" class="city-pill">
+                <img src="image/airalbania.jpeg" alt="Tirana">
+                <div class="city-pill__info"><strong>Tirana</strong><em>Nga $190</em></div>
+            </a>
+            <a href="reservation.html" class="city-pill">
+                <img src="image/travel 3.webp" alt="Venice">
+                <div class="city-pill__info"><strong>Venice</strong><em>Romantike</em></div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Section 2: Account Benefits -->
+    <section class="section-block section-block--alt" id="benefits">
+        <div class="section-head">
+            <span class="eyebrow">Member Area</span>
+            <h2>Why Create An Account?</h2>
+            <p>Sign in to unlock exclusive tools that make planning and booking easier.</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-card__icon"><i class="fa fa-bookmark"></i></div>
+                <h3>Save Favorites</h3>
+                <p>Bookmark destinations and deals to compare and book later at your own pace.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-card__icon"><i class="fa fa-history"></i></div>
+                <h3>Trip History</h3>
+                <p>Access all past and upcoming reservations, invoices, and travel documents in one place.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-card__icon"><i class="fa fa-tag"></i></div>
+                <h3>Member-Only Deals</h3>
+                <p>Get early access to flash sales and extra discounts not shown on the public site.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Security & Trust -->
+    <section class="section-block" id="security">
+        <div class="split-row">
+            <div class="split-row__text">
+                <span class="eyebrow">Safe & Secure</span>
+                <h2>Your Data Is Protected</h2>
+                <p>We use industry-standard encryption to keep your personal information and payment details safe at all times.</p>
+                <div class="login-benefits">
+                    <div class="login-benefit"><i class="fa fa-check-circle"></i><span>SSL encrypted login</span></div>
+                    <div class="login-benefit"><i class="fa fa-check-circle"></i><span>No spam — ever</span></div>
+                    <div class="login-benefit"><i class="fa fa-check-circle"></i><span>GDPR compliant</span></div>
+                </div>
+                <p style="margin-top:1.5rem;">Don't have an account? <a href="reservation.html" style="color:var(--blue);font-weight:600;">Book as a guest</a> or contact us to register.</p>
+            </div>
+            <div class="split-row__img">
+                <img src="image/train.jpg" alt="Secure travel">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: CTA -->
+    <section class="conponent">
+        <h1 class="you">Are You Looking For Travel?</h1>
+        <p class="ti">Make a reservation by clicking the button below</p>
+        <a href="reservation.html"><button class="buton">Book Yours Now</button></a>
+        <a href="#one"><button class="ii"><i class="fa-solid fa-up-long"></i></button></a>
+    </section>
+
+    <footer class="site-footer">
+        <div class="site-footer__grid">
+            <div class="site-footer__brand">
+                <span class="logo-text">Travel</span>
+                <p>World-class journeys for discerning travelers. Curated. Seamless. Unforgettable.</p>
+                <div class="site-footer__social">
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </div>
+            </div>
+            <div><h4>Explore</h4><ul><li><a href="index.html">Home</a></li><li><a href="promotions.html">Promotions</a></li><li><a href="about.html">About Us</a></li></ul></div>
+            <div><h4>Services</h4><ul><li><a href="reservation.html">Reservations</a></li><li><a href="login.html">Member Login</a></li></ul></div>
+            <div><h4>Contact</h4><ul><li><a href="tel:+38349888274">+383 49 888 274</a></li><li><a href="mailto:travel@gmail.com">travel@gmail.com</a></li></ul></div>
+        </div>
+        <div class="site-footer__bottom"><span>© 2026 Travel. All rights reserved.</span><span>Crafted with <span class="gold">♥</span> for world explorers</span></div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

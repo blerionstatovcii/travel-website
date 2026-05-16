@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="sq">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Promotions — Travel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page-inner">
+    <header class="header">
+        <a href="index.html" class="logo">Travel</a>
+        <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menu"><i class="fa fa-bars"></i></button>
+        <nav>
+            <div class="nav-close"><button onclick="toggleMenu()">✕</button></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="promotions.html">Promotions</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Log in</a></li>
+            </ul>
+        </nav>
+        <a href="reservation.html" class="header__cta"><i class="fa fa-calendar"></i> Book Now</a>
+    </header>
+
+    <div class="cities-marquee" aria-hidden="true">
+        <div class="cities-marquee__track">
+            <span>Flash Sale</span><span class="dot">✦</span><span>Paris $299</span><span class="dot">✦</span><span>Dubai $300</span><span class="dot">✦</span><span>London $420</span><span class="dot">✦</span><span>Tirana $190</span><span class="dot">✦</span><span>Stamboll $250</span><span class="dot">✦</span>
+            <span>Flash Sale</span><span class="dot">✦</span><span>Paris $299</span><span class="dot">✦</span><span>Dubai $300</span><span class="dot">✦</span><span>London $420</span><span class="dot">✦</span><span>Tirana $190</span><span class="dot">✦</span><span>Stamboll $250</span><span class="dot">✦</span>
+        </div>
+    </div>
+
+    <!-- Section 1: Hero -->
+    <section class="caribean page-hero-luxury" id="one">
+        <img class="image" src="image/whats.png" alt="Promotions">
+        <div class="shkrim">
+            <h1 class="explore">Take It At The Best Price</h1>
+            <h2 class="cari">Our Promotions</h2>
+            <p class="lorem">Exclusive deals, early-booking discounts, and family packages — enjoy the vacation of your dreams at unbeatable prices.</p>
+            <a href="#deals"><button class="buton1">View Deals</button></a>
+        </div>
+    </section>
+
+    <!-- Section 2: Deal Cards -->
+    <section class="section-block section-block--alt" id="deals">
+        <div class="section-head">
+            <span class="eyebrow">This Week</span>
+            <h2>Best Weekly Offers In <span class="h2">Each City</span></h2>
+            <p class="ttre">Explore destinations, discover amazing discounts, and start planning your next journey today.</p>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <img src="image/airalbania.jpeg" alt="Tirana">
+                <div class="card-content">
+                    <h3>Tirana</h3>
+                    <p class="price">$190 / person</p>
+                    <p><strong>Deal Includes:</strong></p>
+                    <p>3 Days Trip · Flight · Hotel Opera</p>
+                    <a href="reservation.html" class="reservation-button">Make A Reservation</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image/Prishtina-Mall-1-1920.jpg" alt="Prishtina">
+                <div class="card-content">
+                    <h3>Prishtina</h3>
+                    <p class="price">$220 / person</p>
+                    <p><strong>Deal Includes:</strong></p>
+                    <p>4 Days Trip · Flight · Hotel Emerald</p>
+                    <a href="reservation.html" class="reservation-button">Make A Reservation</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image/instabull.jpg" alt="Stamboll">
+                <div class="card-content">
+                    <h3>Stamboll</h3>
+                    <p class="price">$250 / person</p>
+                    <p><strong>Deal Includes:</strong></p>
+                    <p>3 Days Trip · Flight · Hotel Instabül</p>
+                    <a href="reservation.html" class="reservation-button">Make A Reservation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- More Cities -->
+    <section class="section-block" id="more-cities">
+        <div class="section-head">
+            <span class="eyebrow">Eksploro Më Shumë</span>
+            <h2>Destinacione Të Tjera</h2>
+            <p>Rrëshqit për të zbuluar qytete me oferta të kufizuara — rezervo para se të mbarojnë.</p>
+        </div>
+        <div class="cities-scroll">
+            <a href="reservation.html" class="city-pill">
+                <img src="image/Paris.png" alt="Paris">
+                <div class="city-pill__info"><strong>Paris</strong><em>Nga $299</em></div>
+            </a>
+            <a href="reservation.html" class="city-pill">
+                <img src="image/New York.png" alt="New York">
+                <div class="city-pill__info"><strong>New York</strong><em>Nga $580</em></div>
+            </a>
+            <a href="reservation.html" class="city-pill">
+                <img src="image/London.png" alt="London">
+                <div class="city-pill__info"><strong>London</strong><em>Nga $650</em></div>
+            </a>
+            <a href="reservation.html" class="city-pill">
+                <img src="image/Lisbona-2.png" alt="Lisbon">
+                <div class="city-pill__info"><strong>Lisbon</strong><em>Nga $240</em></div>
+            </a>
+            <a href="reservation.html" class="city-pill">
+                <img src="image/travel to dubail.webp" alt="Dubai">
+                <div class="city-pill__info"><strong>Dubai</strong><em>Nga $300</em></div>
+            </a>
+            <a href="reservation.html" class="city-pill">
+                <img src="image/travel 3.webp" alt="Venice">
+                <div class="city-pill__info"><strong>Venice</strong><em>Nga $220</em></div>
+            </a>
+        </div>
+        <div class="card-container" style="margin-top: 2.5rem;">
+            <div class="card">
+                <img src="image/New York.png" alt="New York">
+                <div class="card-content">
+                    <h3>New York</h3>
+                    <p class="price">$580 / person</p>
+                    <p>5 Days · Flight · Manhattan Hotel</p>
+                    <a href="reservation.html" class="reservation-button">Make A Reservation</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image/travel to dubail.webp" alt="Dubai">
+                <div class="card-content">
+                    <h3>Dubai</h3>
+                    <p class="price">$300 / person</p>
+                    <p>5 Days · Flight · 5★ Resort</p>
+                    <a href="reservation.html" class="reservation-button">Make A Reservation</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image/London.png" alt="London">
+                <div class="card-content">
+                    <h3>London</h3>
+                    <p class="price">$420 / person</p>
+                    <p>4 Days · Flight · Central Stay</p>
+                    <a href="reservation.html" class="reservation-button">Make A Reservation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: How It Works -->
+    <section class="section-block" id="how">
+        <div class="section-head">
+            <span class="eyebrow">Simple Process</span>
+            <h2>How To Claim Your Deal</h2>
+            <p>Book your dream trip in three easy steps — fast, secure, and hassle-free.</p>
+        </div>
+        <div class="steps-grid">
+            <div class="step-card">
+                <div class="step-card__num">1</div>
+                <h3>Choose Destination</h3>
+                <p>Pick from our weekly offers or browse all available cities and packages.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-card__num">2</div>
+                <h3>Fill The Form</h3>
+                <p>Enter your dates, number of guests, and contact details in under 2 minutes.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-card__num">3</div>
+                <h3>Confirm & Travel</h3>
+                <p>Our team confirms your booking within 24 hours. Pack your bags and go!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flash Deals Bento -->
+    <section class="cities-showcase" id="flash">
+        <div class="section-head">
+            <span class="eyebrow">Oferta Flash</span>
+            <h2>Zbritje Deri Në 40%</h2>
+            <p>Vetëm këtë javë — kap çmimet më të mira para se të mbarojnë vendet.</p>
+        </div>
+        <div class="cities-bento">
+            <a href="reservation.html" class="city-tile city-tile--hero">
+                <img src="image/whats.png" alt="Beach deal">
+                <span class="city-tile__tag city-tile__tag--hot">-40%</span>
+                <div class="city-tile__overlay">
+                    <h3>Beach Escape</h3>
+                    <p class="price-from">Nga $199</p>
+                    <p class="city-desc">Plazh, diell dhe relaks total.</p>
+                </div>
+            </a>
+            <a href="reservation.html" class="city-tile city-tile--tall">
+                <img src="image/travel to shangi.webp" alt="Thailand">
+                <div class="city-tile__overlay"><h3>Thailand</h3><p class="price-from">Nga $470</p></div>
+            </a>
+            <a href="reservation.html" class="city-tile city-tile--tall">
+                <img src="image/travel to venecia.webp" alt="London">
+                <div class="city-tile__overlay"><h3>London</h3><p class="price-from">Nga $420</p></div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Section 4: Seasonal Bonuses -->
+    <section class="section-block--dark" id="bonuses">
+        <div class="section-block__inner">
+            <div class="section-head">
+                <span class="eyebrow">Limited Time</span>
+                <h2>Extra Savings This Season</h2>
+                <p>Stack these bonuses on top of any weekly offer before they expire.</p>
+            </div>
+            <div class="deals-banner">
+                <div class="deal-mini">
+                    <span class="tag">Family</span>
+                    <h3>Kids Fly Free</h3>
+                    <p>Children under 12 travel free on selected family packages to the Mediterranean.</p>
+                </div>
+                <div class="deal-mini">
+                    <span class="tag">Early Bird</span>
+                    <h3>15% Off</h3>
+                    <p>Book 60 days ahead and save 15% on any destination in our catalog.</p>
+                </div>
+                <div class="deal-mini">
+                    <span class="tag">Groups</span>
+                    <h3>Group Discount</h3>
+                    <p>Groups of 6+ receive an extra 10% off — perfect for weddings and reunions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: CTA -->
+    <section class="conponent reveal">
+        <h1 class="you">Are You Looking For Travel?</h1>
+        <p class="ti">Make a reservation by clicking the button below</p>
+        <a href="reservation.html"><button class="buton">Book Yours Now</button></a>
+        <a href="#one"><button class="ii"><i class="fa-solid fa-up-long"></i></button></a>
+    </section>
+
+    <footer class="site-footer">
+        <div class="site-footer__grid">
+            <div class="site-footer__brand">
+                <span class="logo-text">Travel</span>
+                <p>World-class journeys for discerning travelers worldwide.</p>
+                <div class="site-footer__social">
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </div>
+            </div>
+            <div><h4>Explore</h4><ul><li><a href="index.html">Home</a></li><li><a href="promotions.html">Promotions</a></li><li><a href="about.html">About</a></li></ul></div>
+            <div><h4>Services</h4><ul><li><a href="reservation.html">Reservations</a></li><li><a href="login.html">Login</a></li></ul></div>
+            <div><h4>Contact</h4><ul><li>+383 49 888 274</li><li>travel@gmail.com</li></ul></div>
+        </div>
+        <div class="site-footer__bottom"><span>© 2026 Travel</span><span class="gold">Luxury travel redefined</span></div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

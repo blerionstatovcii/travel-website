@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="sq">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reservation — Travel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page-inner">
+    <header class="header">
+        <a href="index.html" class="logo">Travel</a>
+        <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menu"><i class="fa fa-bars"></i></button>
+        <nav>
+            <div class="nav-close"><button onclick="toggleMenu()">✕</button></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="promotions.html">Promotions</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Log in</a></li>
+            </ul>
+        </nav>
+        <a href="reservation.html" class="header__cta"><i class="fa fa-calendar"></i> Book Now</a>
+    </header>
+
+    <!-- Section 1: Hero -->
+    <section class="caribean page-hero-luxury" id="one">
+        <img class="image" src="image/train.jpg" alt="Reservation">
+        <div class="shkrim">
+            <h1 class="explore">Book Preferred Deal Here</h1>
+            <h2 class="make">Make Your Reservation</h2>
+            <p class="lorem">Exclusive deals, early-booking discounts, and family packages — plan your perfect getaway today.</p>
+            <a href="#contact"><button class="buton1">Contact Us</button></a>
+        </div>
+    </section>
+
+    <!-- Section 2: Contact -->
+    <section class="section-block section-block--alt" id="contact">
+        <div class="section-head">
+            <span class="eyebrow">Get In Touch</span>
+            <h2>We Are Here To Help</h2>
+            <p>Reach us by phone, email, or visit our office in Pristina.</p>
+        </div>
+        <div class="conponent1">
+            <div class="cpm1">
+                <div class="cpmm1"><div class="logo"><i class="fa fa-phone"></i></div></div>
+                <h2 class="heja">Make A Phone Call</h2>
+                <p class="treja">+383 49 888 274</p>
+            </div>
+            <div class="cpm3">
+                <div class="cpmm2"><div class="logo2"><i class="fa fa-envelope"></i></div></div>
+                <h2 class="heja2">Contact Us via Email</h2>
+                <p class="treja2">travel@gmail.com</p>
+            </div>
+            <div class="cpm4">
+                <div class="cpmm4"><div class="logo4"><i class="fa fa-map-marker"></i></div></div>
+                <h2 class="heja4">Visit Our Offices</h2>
+                <p class="treja4">rr. Muharrem Fejza, Pristina</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pick Your City -->
+    <section class="cities-showcase" id="pick-city">
+        <div class="section-head">
+            <span class="eyebrow">Zgjidh Destinacionin</span>
+            <h2>Ku Dëshiron Të Shkosh?</h2>
+            <p>Kliko një qytet dhe plotëso formularin — konfirmojmë brenda 24 orëve.</p>
+        </div>
+        <div class="cities-bento">
+            <a href="#form" class="city-tile city-tile--hero">
+                <img src="image/Paris.png" alt="Paris">
+                <span class="city-tile__tag city-tile__tag--hot">Më i kërkuari</span>
+                <div class="city-tile__overlay"><h3>Paris</h3><p class="price-from">Nga $299</p></div>
+            </a>
+            <a href="#form" class="city-tile city-tile--tall">
+                <img src="image/Prishtina-Mall-1-1920.jpg" alt="Prishtina">
+                <div class="city-tile__overlay"><h3>Prishtina</h3><p class="price-from">Nga $220</p></div>
+            </a>
+            <a href="#form" class="city-tile city-tile--tall">
+                <img src="image/instabull.jpg" alt="Stamboll">
+                <div class="city-tile__overlay"><h3>Stamboll</h3><p class="price-from">Nga $250</p></div>
+            </a>
+            <a href="#form" class="city-tile city-tile--wide">
+                <img src="image/New York.png" alt="New York">
+                <div class="city-tile__overlay"><h3>New York</h3><p class="price-from">Nga $580</p></div>
+            </a>
+            <a href="#form" class="city-tile city-tile--wide">
+                <img src="image/Lisbona-2.png" alt="Lisbon">
+                <div class="city-tile__overlay"><h3>Lisbon</h3><p class="price-from">Nga $240</p></div>
+            </a>
+            <a href="#form" class="city-tile city-tile--wide">
+                <img src="image/travel to dubail.webp" alt="Dubai">
+                <div class="city-tile__overlay"><h3>Dubai</h3><p class="price-from">Nga $300</p></div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Section 3: Map -->
+    <section class="section-block" id="map-section">
+        <div class="section-head">
+            <span class="eyebrow">Find Us</span>
+            <h2>Our Office Location</h2>
+            <p>Stop by for a free travel consultation — we are open Monday to Saturday.</p>
+        </div>
+        <div class="map">
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe class="gmap_iframe" frameborder="0" scrolling="no" title="Map"
+                        src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=prishtina,+muharrem+fejza&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Booking Form -->
+    <section class="section-block section-block--alt" id="form">
+        <div class="section-head">
+            <span class="eyebrow">Online Booking</span>
+            <h2>Reserve Your Trip Now</h2>
+            <p>Fill in the form below and our team will confirm your reservation within 24 hours.</p>
+        </div>
+        <div class="wrapper">
+            <div class="container">
+                <h2>Make Your <span>Reservation</span> Through This <span>Form</span></h2>
+                <form>
+                    <div class="row">
+                        <div class="form-group">
+                            <label>Name Surname</label>
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label>Your Phone Number</label>
+                            <input type="tel" placeholder="Ex. +383 xxx xxx">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <label>Number Of Guests</label>
+                            <select>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4+</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Check In Date</label>
+                            <input type="date">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Choose Your Destination</label>
+                        <select>
+                            <option>Tirane</option>
+                            <option>Paris</option>
+                            <option>Selanik</option>
+                            <option>Madrid</option>
+                            <option>Roma</option>
+                            <option>Berlin</option>
+                            <option>Prishtina</option>
+                        </select>
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: FAQ -->
+    <section class="section-block" id="faq">
+        <div class="section-head">
+            <span class="eyebrow">Questions</span>
+            <h2>Frequently Asked</h2>
+            <p>Quick answers before you book your next adventure.</p>
+        </div>
+        <div class="faq-list">
+            <div class="faq-item">
+                <h3>How long does confirmation take?</h3>
+                <p>We confirm most reservations within 24 hours on business days. You will receive an email with all details.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can I cancel or change my booking?</h3>
+                <p>Yes — free changes up to 14 days before departure. Cancellation terms depend on the package selected.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Are flights and hotels included?</h3>
+                <p>Most packages include round-trip flights and hotel stays. Check each deal description for full inclusions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: CTA -->
+    <section class="end">
+        <h1 class="f1">Are You Looking For Travel?</h1>
+        <p class="f2">Make a reservation by clicking the button below</p>
+        <a href="#form"><button class="butonf1">Book Yours Now</button></a>
+        <a href="#one"><button class="ff1"><i class="fa-solid fa-up-long"></i></button></a>
+    </section>
+
+    <footer class="site-footer">
+        <div class="site-footer__grid">
+            <div class="site-footer__brand">
+                <span class="logo-text">Travel</span>
+                <p>World-class journeys for discerning travelers. Curated. Seamless. Unforgettable.</p>
+                <div class="site-footer__social">
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </div>
+            </div>
+            <div><h4>Explore</h4><ul><li><a href="index.html">Home</a></li><li><a href="promotions.html">Promotions</a></li><li><a href="about.html">About Us</a></li></ul></div>
+            <div><h4>Services</h4><ul><li><a href="reservation.html">Reservations</a></li><li><a href="login.html">Member Login</a></li></ul></div>
+            <div><h4>Contact</h4><ul><li><a href="tel:+38349888274">+383 49 888 274</a></li><li><a href="mailto:travel@gmail.com">travel@gmail.com</a></li></ul></div>
+        </div>
+        <div class="site-footer__bottom"><span>© 2026 Travel. All rights reserved.</span><span>Crafted with <span class="gold">♥</span> for world explorers</span></div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
